@@ -1,0 +1,23 @@
+# OS files
+.DS_Store
+
+# Logs (root or anywhere)
+logs/
+*.log
+
+# Environment files
+.env
+*.local
+
+# Node / frontend
+node_modules/
+dist/
+package-lock.json
+
+# Python
+__pycache__/
+venv/
+
+# Editor configs
+.vscode/
+.idea/
