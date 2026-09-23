@@ -1,21 +1,23 @@
 # OS files
 .DS_Store
 
-# Logs (root or anywhere)
+# Logs
 logs/
 *.log
 
-# Environment files
+# Environment / secrets
 .env
-*.local
+.env.*
+!.env.example
+.local
 
-# Node / frontend
+# Node
 node_modules/
 dist/
-package-lock.json
 
 # Python
 __pycache__/
+*.pyc
 venv/
 
 # Editor configs
